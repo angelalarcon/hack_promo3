@@ -238,6 +238,11 @@ section {
 .student {
 	position: relative;
 	margin: -90px 0 30px;
+	padding-bottom: 60px;
+}
+
+.student img {
+	max-width: 300px;
 }
 
 .option {
