@@ -490,8 +490,8 @@ input[type="checkbox"]:checked:before {
 .navbar-toggle {
 	border-color: #222;
 	z-index: 999;
-	top: 0px;
-	right: 20%;
+	top: -30px;
+	right: 35%;
 }
 
 .navbar-toggle span {
