@@ -499,6 +499,9 @@ input[type="checkbox"]:checked:before {
 }
 
 @media screen and (max-width: 768px) {
+	body {
+		animation: none;
+	}
 	section {
 		padding: 90px 0 20px;
 	}
