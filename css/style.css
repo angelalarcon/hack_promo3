@@ -9,6 +9,7 @@ html {
 }
 
 body {
+	-webkit-transform: translateZ(0);
 	font-family: 'Code Bold';
 	background-image: url(../img/html5.png);
 	animation: animatedBackground 45s linear infinite;
@@ -194,11 +195,7 @@ section {
 
 .name h1 span {
 	display: block;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-image: url(../img/test.jpg);
-	animation: animatedBackground 15s linear infinite;
-	background-color: rgba(21, 27, 87, 0.75);
+	color: #020517;
 }
 
 .well {
