@@ -8,6 +8,10 @@ html {
 	overflow-x: hidden;
 }
 
+.collapsing {
+	-webkit-transform: translateZ(0);
+}
+
 body {
 	font-family: 'Code Bold';
 	background-image: url(../img/html5.png);
