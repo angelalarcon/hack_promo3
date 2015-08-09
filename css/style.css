@@ -106,6 +106,8 @@ section {
 
 .menu.nav-tabs>li {
 	margin: 5px 0;
+	min-width: 165px;
+	z-index: 2;
 }
 
 .menu.nav-tabs>li>a {
@@ -121,6 +123,7 @@ section {
 	-webkit-transition: all 0.3s;
 	white-space: nowrap;
 	width: 42px;
+	overflow: hidden;
 }
 
 .menu.nav-tabs>li>a span {
@@ -234,7 +237,7 @@ section {
 
 .student {
 	position: relative;
-	margin: -90px 0 30px;
+	margin: -60px 0 30px;
 	padding-bottom: 60px;
 }
 
@@ -499,7 +502,7 @@ input[type="checkbox"]:checked:before {
 	background-color: #222;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	body {
 		animation: none;
 	}
@@ -566,5 +569,8 @@ input[type="checkbox"]:checked:before {
 		background-color: #005097;
 		color: #fff;
 		border: 2px solid #fff;
+	}
+	.student {
+		margin: -90px 0 30px;
 	}
 }
